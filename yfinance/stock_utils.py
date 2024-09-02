@@ -21,7 +21,6 @@ def fetchStock(ticker):
     try:
         # Loading Page
         response = requests.get(url)
-        print(response.text)
         yFinancePage = soup(response.text, 'lxml')
 
         # Making Stock object
