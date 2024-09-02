@@ -1,9 +1,7 @@
-# finance-cli - CLI Python database tool
+# yFinance - Python stock and portfolio tool
 
 ## Package Information
-This CLI tool was built with Poetry and Typer.
-
-TODO
+The CLI functionality was built with Typer.
 
 ## Usage
 Snippet below will store current stock information for 'BRK-A' and 'BRK-B' in a csv and json file.
