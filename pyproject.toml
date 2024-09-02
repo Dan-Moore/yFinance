@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "yfinance"
+version = "0.1.0"
+description = "Web Crawler for Yahoo Finance"
+authors = ["Dan-Moore <grep.daniel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+yFinance= "yfinance.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = {extras = ["all"], version = "^0.12.5"}
+beautifulsoup4 = {extras = ["all"], version = "^4.12.3"}
+pandas = {extras = ["all"], version = "^2.2.2"}
+selenium = {extras = ["all"], version = "^4.24.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
